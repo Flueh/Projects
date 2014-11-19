@@ -8,9 +8,9 @@ Welcome to *Fluenza_'s* repository. All of my past, present and future projects 
 2. **Websites** I do plan to develop websites using *Bootstrap 3*, designing clean and responsive interfaces. 
 
 3. **Minecraft Plugins** If you are wishing to start building a Minecraft server, a bunch of plugins **will** be stored here. Goals:
---* User friendly.
---* Effective and flexible.
---* Fully customizable.
+--- User friendly.
+--- Effective and flexible.
+--- Fully customizable.
 
 4. **Writing YAML files manually** I do requests, yes. Please submit these via my **Skype** (*jozzeh.mc*)
 ---

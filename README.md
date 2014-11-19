@@ -21,7 +21,7 @@ Welcome to *Fluenza_'s* repository. All of my past, present and future projects 
 | *Spectator spawn* (xyz), *team spawns* (xyz)
 | *Team information* team colo(u)rs, max users per team
 | *Monument locations* (xyz)Coord block is *_ON_*
-| *Loadout items* eg. Diamond Sword, Bow, food, 64 logs * _BE SPECIFIC_*
+| *Loadout items* eg. Diamond Sword, Bow, food, 64 logs *_BE SPECIFIC_*
 | *Regions* Protect blocks [?] OPTIONAL
 | *Map Download*
 | *Contact information* Skype, e-mail.

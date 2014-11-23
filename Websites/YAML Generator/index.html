@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>YML Generator - Fluenza</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+
+<div id="wrap">
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Fluenza</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">YML Generator</a></li>
+          <li><a href="#contact">My testing page</a></li>
+        </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+  <div class="container">
+    <div class="page-header">
+      <h1>YML Generator</h1>
+      <hr>
+    </div>
+    <p class="lead">This is a page, that when the information is correctly added, the website will generate a YAML file for you. No coding knownledge needed! 
+    
+<br>
+<br>
+<hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+    $("#myTab first a").tab('show');
+});
+</script>
+<style type="text/css">
+  .bs-example{
+    margin: 20px;
+  }
+</style>
+</head>
+<body>
+
+<!--Tabs-->
+<div class="bs-example">
+    <ul class="nav nav-tabs" id="myTab">
+        <li class="active"><a data-toggle="tab" href="#map">Map Information</a></li>
+        <li><a data-toggle="tab" href="#loadout">Loadout</a></li>
+        <li><a data-toggle="tab" href="#enchant">Enchantments/effects</a></li>
+        <li><a data-toggle="tab" href="#teams">Team information & Regions</a></li>
+
+        <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Triggers <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a data-toggle="tab" href="#kill">Kill rewards</a></li>
+                <li><a data-toggle="tab" href="#proj">Projectiles</a></li>
+                <li><a data-toggle="tab" href="#grav">Gravity / Velocity</a></li>
+                <li><a href="#">More coming soon!</a></li>
+            </ul>
+        </li>
+    </ul>
+
+<!--Map information-->
+<div class="tab-content">
+  <div id="map" class="tab-pane fade in active">
+    <p><div class="form-group">
+    <label class="control-label" for="inputDefault">Map name:</label>
+   <input name="map" type="text" class="form-control" id="inputDefault">
+  </div></p>
+    <p><div class="form-group">
+    <label class="control-label" for="inputDefault">Duration: </label>
+   <input type="text" class="form-control" id="inputDefault">
+  </div></p>
+    <p><div class="form-group">
+    <label class="control-label" for="inputDefault">Version:</label>
+   <input type="text" class="form-control" id="inputDefault">
+  </div></p>
+    <p><div class="form-group">
+    <label class="control-label" for="inputDefault">Gamemode: <small><i>DTM/TDM</i></small></label>
+   <input type="text" class="form-control" id="inputDefault">
+  </div></p>
+    <p><div class="form-group">
+    <label class="control-label" for="inputDefault">Authors:</label>
+   <input type="text" class="form-control" id="inputDefault">
+  </div></p>
+    <p><div class="form-group">
+    <label class="control-label" for="inputDefault">Contributors: <small><i>Leave blank if none</i></small></label>
+   <input type="text" class="form-control" id="inputDefault">
+</div></p>
+<hr>
+</div>
+
+
+<!--Loadout-->
+<div id="loadout" class="tab-pane fade">
+        <h3>Loadout</h3>
+        <div class="form-group">
+  <label class="control-label" for="focusedInput">Helmet:</label>
+   <input class="form-control" id="focusedInput" type="text" value="Example: leather helmet">
+  </div>
+  <hr>
+
+   <div class="form-group">
+  <label class="control-label" for="focusedInput">Chestplate:</label>
+   <input class="form-control" id="focusedInput" type="text" value="Example: leather chestplate">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Leggings</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: leather leggings">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Boots:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: leather boots">
+  </div>
+  <hr>
+
+  <h3>ITEMS</h3>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 1:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: wooden sword">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 2:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: diamond pickaxe">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 3:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: golden apple">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 4:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: cooked fish">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 5:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: log">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 6:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: glass">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 7:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: stone">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Slot 8:</label>
+  <input class="form-control" id="focusedInput" type="text" value="Example: bow">
+  </div>
+  <hr>
+
+  <div class="form-group">
+   <label class="control-label" for="disabledInput">Slot 9:</label>
+  <input class="form-control" id="disabledInput" type="text" placeholder="Nebula Shop" disabled="">
+  </div>
+</div>
+
+<!--Enchanting/effects-->
+<div id="enchant" class="tab-pane fade">
+        <p><h3>Coming soon!</h3></p>
+</div>
+
+<!--Team information-->
+<div id="teams" class="tab-pane fade"> 
+   <div class="form-group">
+   <label class="control-label" for="focusedInput"><h3>Team 1:</h3></label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Red">
+   <input class="form-control" id="focusedInput" type="text" placeholder="Maximum players">
+
+   <label class="control-label" for="focusedInput">Spawn: </label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="x.5,y.5,z.5">
+
+   <label class="control-label" for="focusedInput">Monument 1:</label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Left">
+   <input class="form-control" id="focusedInput" type="text" placeholder="x,y,z">
+
+   <label class="control-label" for="focusedInput">Monument 2:</label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Right">
+   <input class="form-control" id="focusedInput" type="text" placeholder="x,y,z">
+
+   <label class="control-label" for="focusedInput">Monument 3:</label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Center">
+   <input class="form-control" id="focusedInput" type="text" placeholder="x,y,z">
+   
+   <label class="control-label" for="focusedInput"><h3>Team 2:</h3></label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Blue">
+   <input class="form-control" id="focusedInput" type="text" placeholder="Maximum players">
+
+   <label class="control-label" for="focusedInput">Spawn: </label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="x.5,y.5,z.5">
+
+   <label class="control-label" for="focusedInput">Monument 1:</label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Left">
+   <input class="form-control" id="focusedInput" type="text" placeholder="x,y,z">
+
+   <label class="control-label" for="focusedInput">Monument 2:</label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Right">
+   <input class="form-control" id="focusedInput" type="text" placeholder="x,y,z">
+
+   <label class="control-label" for="focusedInput">Monument 3:</label>
+   <input class="form-control" id="focusedInput" type="text" placeholder="Center">
+   <input class="form-control" id="focusedInput" type="text" placeholder="x,y,z">
+</div>
+  <p><h3>More teams coming soon</h3></p>
+  <hr>
+
+  <hr>
+
+  <h3>Regions:</h3>
+  <small><i>Remember: Don't fill in boxes if you don't need the region/s!</i></small>
+  <br>
+
+  <div class="form-group">
+   <label class="control-label" for="focusedInput">Type:</label>
+     <input class="form-control" id="focusedInput" type="text" placeholder="Cuboid, cylinder">
+  </div></p>
+
+  <div class="form-group">
+  <label class="control-label" for="focusedInput">If cuboid:</label>
+  <input class="form-control" id="focusedInput" type="text" placeholder="MAX - x,y,z ">
+  <input class="form-control" id="focusedInput" type="text" placeholder="MIN - x,y,z">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Message when denied placement">
+
+  <label class="control-label" for="focusedInput">Another cuboid region:</label>
+  <input class="form-control" id="focusedInput" type="text" placeholder="MAX - x,y,z ">
+  <input class="form-control" id="focusedInput" type="text" placeholder="MIN - x,y,z">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Message when denied placement">
+  </div></p>
+
+  <div class="form-group">
+  <label class="control-label" for="focusedInput">If cylinder:</label>
+  <input class="form-control" id="focusedInput" type="text" placeholder="Center - x,y,z">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Radius">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Height">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Message when denied placement">
+
+  <label class="control-label" for="focusedInput">Another cylinder region:</label>
+  <input class="form-control" id="focusedInput" type="text" placeholder="Center - x,y,z">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Radius">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Height">
+  <input class="form-control" id="focusedInput" type="text" placeholder="Message when denied placement">
+
+</div>
+</div>
+<!--TRIGGERS-->
+<!--Kill rewards-->
+<div id="kill" class="tab-pane fade">
+    <h3>Coming Soon!</h3>
+</div>
+
+<!--Projectile alterations-->
+<div id="proj" class="tab-pane fade">
+    <h3>Coming Soon!</h3>
+</div>
+
+<!--Gravity/velocity-->
+<div id="grav" class="tab-pane fade">
+    <h3>Coming Soon!</h3>
+</div>
+
+
+
+
+
+
+
+
+<!--MODAL-->
+<div id="#theModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Submit / Finish-->
+<hr>
+<br>
+<button type="button" href="theModal" class="btn btn-default" data-toggle="modal">Finish + View YAML</button>
+<br>
+<br>
+
+<!--Footer-->
+</body>
+<div id="footer">
+  <div class="container">
+    <p class="text-muted credit" class="static"><a href="avicus.net/fluenza_">Made by Fluenza_</a> and this is not affiliated or endorsed by the Avicus Network. Made for users who cannot understand YAML.</a></p>
+  </div>
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

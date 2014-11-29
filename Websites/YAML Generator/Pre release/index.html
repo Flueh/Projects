@@ -7,7 +7,7 @@
 
 <form id="form">
     <h1>Map information</h1>
-	Map name: <input name="map" type="text" size="20">
+	Map Name: <input name="map" type="text" size="20">
 	Version: <input name="version" type="text" size="20">
 	Duration: <input name="duration" type="text" size="20" placeholder="3600 = 36 minutes">
 	Gamemode: <input name="gm" type="text" size="20" placeholder="DTM/TDM">
@@ -29,28 +29,28 @@
 	Boots: <input name="boots" type="text" size="20" placeholder="leather boots">
 	Enchantment?: <input name="enchantboots" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 1: <input name="slot1" type="text" size="20" placeholder="stone pickaxe">
+	Slot 1: <input name="slot1" type="text" size="20" placeholder="stone sword">
 	Enchantment?: <input name="enchantitem1" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 2: <input name="slot2" type="text" size="20" placeholder="iron sword">
+	Slot 2: <input name="slot2" type="text" size="20" placeholder="bow">
 	Enchantment?: <input name="enchantitem2" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 3: <input name="slot3" type="text" size="20" placeholder="golden apple">
+	Slot 3: <input name="slot3" type="text" size="20" placeholder="diamond pickaxe">
 	Enchantment?: <input name="enchantitem3" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
 	Slot 4: <input name="slot4" type="text" size="20" placeholder="logs">
 	Enchantment?: <input name="enchantitem4" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 5: <input name="slot5" type="text" size="20" placeholder="glass">
+	Slot 5: <input name="slot5" type="text" size="20" placeholder="sandstone">
 	Enchantment?: <input name="enchantitem5" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 6: <input name="slot6" type="text" size="20" placeholder="cooked fish">
+	Slot 6: <input name="slot6" type="text" size="20" placeholder="glass">
 	Enchantment?: <input name="enchantitem6" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 7: <input name="slot7" type="text" size="20" placeholder="tnt">
+	Slot 7: <input name="slot7" type="text" size="20" placeholder="cooked fish">
 	Enchantment?: <input name="enchantitem7" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
-	Slot 8: <input name="slot8" type="text" size="20" placeholder="bow">
+	Slot 8: <input name="slot8" type="text" size="20" placeholder="golden apple">
 	Enchantment?: <input name="enchantitem8" type="text" size="20" placeholder="leave blank if none wanted">
 	<p>
 	Slot 9: <input name="slot9" type="text" size="20" placeholder="Nebula shop" disabled>
@@ -172,6 +172,9 @@ function outputname() {
 
 	y=x.elements["authors"].value;
 	document.writeln("creators: "+y+"<br>");
+	
+	y=x.elements["cont"].value;
+	document.writeln("contributors: " + "<br>");
 
 	document.writeln("<br>"+"teams: " + "<br>");
 
@@ -259,4 +262,3 @@ function outputname() {
 
 </body>
 </html>
-
